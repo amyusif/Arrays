@@ -11,13 +11,17 @@ namespace Arrays
         static void Main(string[] args)
         {
             // Initializing an array
+            // Method 1
+
+            // string[] names = new string[5];
+            // names[0] = "yusif";
 
 
-            string[] mates = new string[5];
-            mates[0] = "Yusif";
-            mates[1] = "Adofo";
+            // Method 2
 
+            string[] mates = { "YUSIF", "ASANTE" };
 
+            // Looping through an array with FOR LOOP
             for (int i = 0; i < mates.Length; i++)
             {
                 Console.WriteLine(mates[i]);
